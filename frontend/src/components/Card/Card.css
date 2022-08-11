@@ -1,0 +1,17 @@
+.card{
+    padding: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.card-info{
+    margin-top: 10px;
+}
+
+.card-user{
+    font-weight: 600;
+    font-size: 18px;
+}

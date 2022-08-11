@@ -3,6 +3,9 @@ const app = express();
 
 const dotenv = require("dotenv").config();
 const axios = require("axios");
+const cors = require("cors");
+
+app.use(cors());
 
 app.get("/api/fetch", async (req, res) => {
   try {
